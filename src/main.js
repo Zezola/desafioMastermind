@@ -28,8 +28,10 @@ const getRandomSequence = () => {
 }
 
 const compareUserInput = () => {
+
     let guess = document.getElementById("userGuess").value
     let randomSequence = document.getElementById("randomSequence").innerHTML
+    let message = document.getElementById("message")
     let rightNumberWrongPosition = 0
     let rightNumberRightPosition = 0
 
@@ -44,10 +46,15 @@ const compareUserInput = () => {
             }
         }
     }
+
+    if (rightNumberRightPosition === randomSequence.length) {
+        message.innerHTML = "Voce venceu!"
+        document.getElementById("userGuess").disabled = true
+    }
     
     let rightNumberRightPositionSpan = document.getElementById("rightNumbersRightPosition")
     rightNumberRightPositionSpan.innerHTML = rightNumberRightPosition
     let rightNumberWrongPositionSpan = document.getElementById("rightNumbersWrongPosition")
     rightNumberWrongPositionSpan.innerHTML = rightNumberWrongPosition
-
+    
 }
