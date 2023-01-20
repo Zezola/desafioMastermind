@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css"/>
+    <title>Desafio Mastermind</title>
+</head>
+<body>
+    <div class="container">
+        <div class="maxDigitsInput">
+            <label>Nro maximo de digitos</label>
+            <input type="text" id="maxDigits">
+            <button onclick="getRandomSequence()">Gerar!</button>
+            <p id="randomSequence"></p>
+        </div>
+        <div class="userGuess">
+            <label>Palpite</label>
+            <input type="text" id="userGuess">
+            <button onclick="compareUserInput()" id="userGuessBtn">OK</button>
+        </div>
+        <div class="answers">
+            <p>Numeros certos na posicao certa: <span id="rightNumbersRightPosition"></span></p>
+            <p>Numeros certos na posicao errada: <span id="rightNumbersWrongPosition"></span></p>
+        </div>
+    </div>
+    <script src="./main.js" defer></script>
+</body>
+</html>
