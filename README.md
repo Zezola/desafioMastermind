@@ -12,6 +12,8 @@ Your assignment is to program the game of mastermind. The computer program will 
 “code maker” assigning a random number pattern. Player ( “code breaker” ) will input guesses
 until game ends
 
+<h2>Objetivos: Um desafio de código simples para treinar as habilidades básicas com JS puro, HTML e CSS</h2>
+
 <h2>Rodando o projeto</h2>
 Metodo 1: Usando git clone</br>
 Passo 1: Clone o repositorio na sua maquina com o comando https://github.com/Zezola/desafioMastermind.git</br>
