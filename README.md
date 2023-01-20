@@ -13,11 +13,11 @@ Your assignment is to program the game of mastermind. The computer program will 
 until game ends
 
 <h2>Rodando o projeto</h2>
-Metodo 1: Usando git clone
-Passo 1: Clone o repositorio na sua maquina com o comando https://github.com/Zezola/desafioMastermind.git
-Passo 2: Navegue até a pasta onde o repositorio foi clonado e abra o arquivo index.html 
+Metodo 1: Usando git clone</br>
+Passo 1: Clone o repositorio na sua maquina com o comando https://github.com/Zezola/desafioMastermind.git</br>
+Passo 2: Navegue até a pasta onde o repositorio foi clonado e abra o arquivo index.html</br>
 
-Metodo 2: Baixando o arquivo .zip 
-Passo 1: No github, escolha a opção "Download ZIP" na aba "Code" 
-Passo 2: Descompacte o arquivo .zip baixado para sua maquina
-Passo 3: Navegue até a pasta onde os arquivos foram descompactados e abra o arquivo index.html
+Metodo 2: Baixando o arquivo .zip</br>
+Passo 1: No github, escolha a opção "Download ZIP" na aba "Code"</br>
+Passo 2: Descompacte o arquivo .zip baixado para sua maquina</br>
+Passo 3: Navegue até a pasta onde os arquivos foram descompactados e abra o arquivo index.html</br>
