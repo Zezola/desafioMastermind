@@ -9,8 +9,8 @@ const sequentialSearch = (nums, n) => {
 
 const getRandomSequence = () => {
     let maxDigits = document.getElementById('maxDigits').value
-    var randomSequence = ''
-    var used = []
+    let randomSequence = ''
+    let used = []
     let count = 0
     while (count < maxDigits) {
         let digit = Math.floor(Math.random() * 7).toString()
@@ -28,8 +28,8 @@ const getRandomSequence = () => {
 }
 
 const compareUserInput = () => {
-    var guess = document.getElementById("userGuess").value
-    var randomSequence = document.getElementById("randomSequence").innerHTML
+    let guess = document.getElementById("userGuess").value
+    let randomSequence = document.getElementById("randomSequence").innerHTML
     let rightNumberWrongPosition = 0
     let rightNumberRightPosition = 0
 
@@ -44,8 +44,6 @@ const compareUserInput = () => {
             }
         }
     }
-    console.log(`Numeros certos na posicao certa ${rightNumberRightPosition}`)
-    console.log(`Numeros certos na posicao errada ${rightNumberWrongPosition}`)
     
     let rightNumberRightPositionSpan = document.getElementById("rightNumbersRightPosition")
     rightNumberRightPositionSpan.innerHTML = rightNumberRightPosition
